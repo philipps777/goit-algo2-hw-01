@@ -1,5 +1,3 @@
-
-
 import random
 
 def generate_some_array(size):
