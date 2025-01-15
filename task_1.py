@@ -13,21 +13,15 @@ def find_min_max(arr):
   return min(left_min, right_min), max(left_max, right_max)
 
 
-# numbers = [3, 7, 2, 9, 5]
-# min_value, max_value = find_min_max(large_array)
-# print(f"МMin_vailue: {min_value}")
-# print(f"Max_value: {max_value}")
 
-
-
-def generate_large_array(size):
+def generate_some_array(size):
 
   return [random.randint(1, 1000) for _ in range(size)]
 
-large_array = generate_large_array(10)
+Some_array = generate_some_array(10)
 
-print(large_array)
+print(Some_array)
 
-min_value, max_value = find_min_max(large_array)
+min_value, max_value = find_min_max(Some_array)
 print(f"МMin_vailue: {min_value}")
 print(f"Max_value: {max_value}")
